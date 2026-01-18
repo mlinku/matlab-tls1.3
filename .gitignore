@@ -1,0 +1,41 @@
+# Claude Code local settings
+.claude/
+
+# MATLAB
+*.asv
+*.m~
+*.mex*
+*.mlappinstall
+*.mltbx
+slprj/
+sccprj/
+codegen/
+*.autosave
+
+# Output files (regenerated during simulation)
+src/output/*.pcap
+src/output/*.txt
+
+# Private keys (security sensitive)
+# Note: Keep certificates but exclude private keys from version control
+# config/certificates/*/private_key*.der
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# IDE
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Temporary files
+*.tmp
+*.temp
+*.log
