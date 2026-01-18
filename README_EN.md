@@ -91,7 +91,7 @@ ClientHello
 
 2. **Prepare Certificate Files**
 
-   Generate the required certificates and private keys using OpenSSL:
+   > **Note**: The project includes self-signed test certificates, ready to run. To regenerate, use OpenSSL:
 
    ```bash
    # Generate server certificate and private key
